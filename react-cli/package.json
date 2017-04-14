@@ -1,1 +1,21 @@
-package.json
+{
+  "name": "react-cli",
+  "version": "0.1.0",
+  "description": "init react app",
+  "author": "KennyWu",
+  "license": "ISC",
+  "repository": {
+    "type": "github",
+    "url": "https://code.aliyun.com/makeblock-neurons/neurons-app.git"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production node_modules/.bin/webpack -p --progress --colors",
+    "start": "node_modules/.bin/webpack -w"
+  },
+  "devDependencies": {
+
+  },
+  "dependencies": {
+
+  }
+}
